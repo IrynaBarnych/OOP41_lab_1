@@ -1,4 +1,4 @@
 --Завдання 5
--- Відображати ПІБ усіх студентів
-SELECT student_name FROM Student_Grades;
+-- Відображати усіх середніх оцінок.
+SELECT average_grade_per_year FROM Student_Grades;
 
