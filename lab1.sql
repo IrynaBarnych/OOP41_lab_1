@@ -1,4 +1,6 @@
 --Завдання 5
--- Відображати усіх середніх оцінок.
-SELECT average_grade_per_year FROM Student_Grades;
+-- Показати ПІБ усіх студентів з мінімальною оцінкою,
+--більшою, ніж зазначена.
+SELECT student_name FROM Student_Grades
+WHERE min_grade < 8
 
