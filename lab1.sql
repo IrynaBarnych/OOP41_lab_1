@@ -1,6 +1,6 @@
 --Завдання 5
--- Показати країни студентів. Назви країн мають бути
+-- Показати міста студентів. Назви міст мають бути
 --унікальними.
-SELECT DISTINCT country FROM Student_Grades
+SELECT DISTINCT city FROM Student_Grades
 
 
