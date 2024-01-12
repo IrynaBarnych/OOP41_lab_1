@@ -1,5 +1,4 @@
 --Завдання 5
--- Відображати всієї інформації з таблиці зі студентами
---та оцінками.
-SELECT * FROM Student_Grades
+-- Відображати ПІБ усіх студентів
+SELECT student_name FROM Student_Grades;
 
