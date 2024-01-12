@@ -1,4 +1,3 @@
---Завдання 2
---Переназвіть базу даних із першого завдання. Нове
---ім’я для бази даних Example.
-ALTER DATABASE Sample RENAME TO Example;
+--Завдання 3
+--Видаліть базу даних Example.
+DROP DATABASE IF EXISTS Example;
