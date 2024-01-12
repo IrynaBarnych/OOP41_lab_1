@@ -1,6 +1,5 @@
 --Завдання 5
--- Показати міста студентів. Назви міст мають бути
---унікальними.
-SELECT DISTINCT city FROM Student_Grades
+-- Показати назви груп. Назви груп мають бути унікальними.
+SELECT DISTINCT group_name FROM Student_Grades
 
 
